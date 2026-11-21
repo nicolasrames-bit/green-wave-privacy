@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Green Wave: you're the traffic lights</title>
+<meta name="description" content="A one-thumb traffic puzzle. Tap the lights and keep Paris, New York and London flowing. Coming soon on Google Play.">
+<meta property="og:title" content="Green Wave: you're the traffic lights">
+<meta property="og:description" content="A one-thumb traffic puzzle. Coming soon on Google Play.">
+<meta property="og:image" content="https://nicolasrames-bit.github.io/green-wave-privacy/play/icon.png">
+<meta name="theme-color" content="#2fae78">
+<link rel="icon" href="icon.png">
+<style>
+  @font-face { font-family: 'Baloo 2'; font-weight: 800; font-display: swap; src: url(baloo-800.woff2) format('woff2'); }
+  @font-face { font-family: 'Manrope'; font-weight: 600; font-display: swap; src: url(manrope-600.woff2) format('woff2'); }
+  :root { --green: #2fae78; --ink: #1c222b; --muted: #5f6a7c; --page: #e8ecf2; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 600 16px/1.5 Manrope, system-ui, -apple-system, Roboto, sans-serif; }
+  main { max-width: 440px; margin: 0 auto; padding: 28px 16px 40px; text-align: center; }
+  .brand { display: flex; align-items: center; justify-content: center; gap: 12px; }
+  .brand img { width: 56px; height: 56px; border-radius: 14px; box-shadow: 0 4px 14px rgba(52,72,110,.18); }
+  h1 { font: 800 40px/1 'Baloo 2', Manrope, sans-serif; margin: 0; }
+  .tag { margin: 14px 0 20px; font-size: 18px; color: var(--muted); }
+  video { width: 100%; max-width: 300px; aspect-ratio: 9 / 16; border-radius: 22px; background: #d2d8e1; box-shadow: 0 10px 30px rgba(52,72,110,.22); display: block; margin: 0 auto; }
+  .soon { display: inline-flex; align-items: center; gap: 10px; margin: 26px 0 10px; padding: 14px 22px; border-radius: 999px; background: var(--ink); color: #fff; font-size: 16px; }
+  .soon svg { width: 20px; height: 20px; }
+  .beta { display: block; margin: 8px auto 0; max-width: 340px; padding: 16px 20px; border-radius: 16px; background: var(--green); color: #fff; text-decoration: none; font: 800 22px/1.1 'Baloo 2', Manrope, sans-serif; }
+  .beta small { display: block; margin-top: 4px; font: 600 14px/1.3 Manrope, sans-serif; opacity: .9; }
+  ul { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 10px; text-align: left; }
+  li { background: var(--card); border-radius: 14px; padding: 12px 16px; display: flex; gap: 12px; align-items: center; }
+  li b { font-size: 22px; width: 28px; text-align: center; flex: none; }
+  footer { margin-top: 30px; font-size: 13px; color: var(--muted); }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="icon.png" alt=""><h1>Green Wave</h1></div>
+  <p class="tag">You're the traffic lights. Tap to switch them and keep the city flowing.</p>
+
+  <video src="../media/02-paris.mp4" autoplay muted loop playsinline preload="metadata"></video>
+
+  <div class="soon">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M4 3.5v17a1 1 0 0 0 1.5.9L20 13a1.2 1.2 0 0 0 0-2L5.5 2.6A1 1 0 0 0 4 3.5z"/></svg>
+    Coming soon on Google Play
+  </div>
+
+  <a class="beta" href="mailto:greenwavelights@gmail.com?subject=Green%20Wave%20beta&body=Hi!%20I'd%20like%20to%20test%20Green%20Wave.%20My%20Google%20Play%20email%20is%3A%20">
+    Play it before everyone
+    <small>Join the Android beta: email us your Google Play address</small>
+  </a>
+
+  <ul>
+    <li><b>🚦</b><span>One thumb: tap a light to switch it</span></li>
+    <li><b>🌍</b><span>Paris, New York and London, 24 levels</span></li>
+    <li><b>📅</b><span>A new daily challenge, the same for every player</span></li>
+    <li><b>♾️</b><span>Endless mode: how far can you go?</span></li>
+  </ul>
+
+  <footer>Free to play · No account · <a href="../">Privacy policy</a> · <a href="mailto:greenwavelights@gmail.com">greenwavelights@gmail.com</a></footer>
+</main>
+</body>
+</html>
