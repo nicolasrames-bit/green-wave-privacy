@@ -26,21 +26,21 @@
   <p class="date">Effective 11 November 2026</p>
 
   <div class="summary">
-    <p><strong>In short:</strong> Green Wave has no accounts and we, the makers of the game, do not collect any personal data.</p>
-    <p>The game shows an ad only when a player chooses to watch a short video to keep a run going. Those ads are provided by Google, are never personalised, and do not use the advertising ID.</p>
+    <p><strong>In short:</strong> Green Wave has no accounts and never asks for a real name, email address or contacts. The only thing a player can choose to share is a made-up nickname for the optional daily leaderboard.</p>
+    <p>The game shows ads provided by Google AdMob: optional videos to keep a run going, and a short full-screen ad between runs. They are never personalised and do not use the advertising ID.</p>
   </div>
 
   <h2>Who we are</h2>
   <p>Green Wave ("the game", package name <code>app.greenwave.game</code>) is published by Green Wave ("we"). You can reach us at <a href="mailto:greenwavelights@gmail.com">greenwavelights@gmail.com</a>.</p>
 
   <h2>Data we collect</h2>
-  <p>None. The game has no sign-up, no login and no server of ours. We never ask for your name, email address, contacts, photos or precise location.</p>
+  <p>Only if a player uses the optional daily leaderboard (see "Leaderboard" below): a made-up nickname, the daily results the player posts, an optional country flag, and a random anonymous ID. Nothing is collected if the leaderboard is never opened. The game has no sign-up, no login and no password. We never ask for your name, email address, contacts, photos or precise location.</p>
 
   <h2>Data stored on your device</h2>
-  <p>Your progress (stars, daily challenge results, endless scores) and your settings are saved on your device only. They are never sent to us. Uninstalling the game, or clearing its data in Android settings, deletes them.</p>
+  <p>Your progress (stars, daily challenge results, endless scores) and your settings are saved on your device only. They are not sent to us, except the daily results posted to the leaderboard if the player opens it. Uninstalling the game, or clearing its data in Android settings, deletes them.</p>
 
   <h2>Advertising</h2>
-  <p>The game uses Google AdMob to show rewarded video ads. An ad is shown only when the player taps the button to watch a video and continue a run. There are no banners and no ads between levels.</p>
+  <p>The game uses Google AdMob to show two kinds of ads: rewarded videos, which appear only when the player taps the button to watch one and continue a run, and a short full-screen ad that may appear between runs, after a level or an endless run. Ads never appear during a run or in the daily challenge, and there are no banners.</p>
   <p>Because children may play Green Wave, every player is treated as a child for advertising:</p>
   <ul>
     <li>Ads are never personalised. There is no interest-based advertising and no remarketing.</li>
@@ -56,18 +56,31 @@
     <tr><td>Diagnostics</td><td>Performance information such as crash logs and launch time.</td></tr>
   </table>
   <p>Google uses this data for serving ads, analytics and fraud prevention, and it is encrypted in transit. Google's use of the data is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-  <p>Ads are optional. If the video button is never tapped, no ad is shown.</p>
+  <p>Rewarded videos are optional: if the video button is never tapped, none is shown.</p>
+
+  <h2>Leaderboard</h2>
+  <p>The daily leaderboard is optional and is opened by the player. To use it the player picks a nickname. Nicknames must be made up: the game asks players never to use a real name or contact details, rejects nicknames that contain contact details or offensive words, and lets players report a name, which then disappears from the reporter's boards and is reviewed by us.</p>
+  <p>If the player uses the leaderboard, the following is stored online with Google Firebase (Authentication and Cloud Firestore), where other players can see the nickname, flag and results:</p>
+  <table>
+    <tr><th>Data</th><th>What it is</th></tr>
+    <tr><td>Nickname</td><td>Chosen by the player, 3 to 16 characters.</td></tr>
+    <tr><td>Country flag</td><td>Optional and off by default. Only a two-letter country code taken from the phone's language setting is stored, never a location.</td></tr>
+    <tr><td>Daily results</td><td>The average wait of each daily challenge the player posts, and the date.</td></tr>
+    <tr><td>Anonymous ID</td><td>A random ID created by Firebase when the leaderboard is first opened. It is not linked to an email, a name or the advertising ID.</td></tr>
+    <tr><td>Friends group code</td><td>A six-character code, if the player creates or joins a friends group. Players in a group can see each other's nicknames and results.</td></tr>
+  </table>
+  <p>Google, as Firebase's provider, also receives the device's IP address when the game contacts it. See the <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>. We use this data only to show the leaderboards and to keep them fair. We do not sell it, and we do not use it for advertising.</p>
 
   <h2>Sharing and rating</h2>
   <p>If a grown-up taps Share and passes the check, the game opens Android's share sheet with a short text about your result. You choose the app and the recipient; nothing is sent to us. If you are asked to rate the game, the rating card is provided by Google Play.</p>
 
   <h2>Children</h2>
-  <p>Green Wave is suitable for all ages, including children under 13. We do not collect personal data from children or from anyone else. The only data that leaves the device is the advertising data described above, collected by Google under its child-directed settings.</p>
+  <p>Green Wave is suitable for all ages, including children under 13. We do not collect personal data from children or from anyone else. The data that can leave the device is the advertising data described above, collected by Google under its child-directed settings, and, only if a child opens the optional leaderboard, a made-up nickname and daily results. The leaderboard has no free chat and no messages: other players see only a nickname, a flag and a time.</p>
   <p>Sharing a result opens another app, so the game first asks a grown-up to answer a simple sum.</p>
   <p>Parents and guardians with questions can write to <a href="mailto:greenwavelights@gmail.com">greenwavelights@gmail.com</a>.</p>
 
   <h2>Deleting your data</h2>
-  <p>We hold no data about you, so there is nothing for us to delete. To remove the data saved on your device, uninstall the game. For data held by Google, use the controls described in the Google Privacy Policy.</p>
+  <p>To remove the data saved on your device, uninstall the game. To have your leaderboard entries removed, write to <a href="mailto:greenwavelights@gmail.com">greenwavelights@gmail.com</a> with your nickname and roughly when you played, and we will delete them. For data held by Google, use the controls described in the Google Privacy Policy.</p>
 
   <h2>Changes to this policy</h2>
   <p>If the game changes in a way that affects your privacy, we will update this page and the date at the top.</p>
